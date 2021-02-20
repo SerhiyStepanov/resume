@@ -20,9 +20,9 @@ img {
 
 :root {
   --primary-color: ;
-  --acсent-color: rgb(127, 255, 0);
+  --acсent-color: rgb(155, 255, 55);
   --dark-color: rgb(25, 50, 75);
-  --light-color: rgb(247, 247, 232);
+  --light-color: rgb(250, 250, 220);
 
   --cubic: cubic-bezier(0.23, 1, 0.32, 1);
 }

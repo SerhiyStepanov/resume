@@ -32,6 +32,10 @@
   margin-bottom: 10px;
 }
 
+.listItems {
+  list-style: none;
+}
+
 .listItem {
   color: var(--acсent-color);
 }
@@ -53,7 +57,7 @@
   color: var(--acсent-color);
   text-decoration-style: solid;
   transform: scale(1.03);
-  transition: transform 250ms var(--cubic);
+  transition: transform 300ms var(--cubic);
 }
 
 .link:after {
@@ -93,7 +97,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .Applogo {
-    animation: Applogo-spin infinite 20s linear;
+    animation: Applogo-spin infinite 32s linear;
   }
 }
 

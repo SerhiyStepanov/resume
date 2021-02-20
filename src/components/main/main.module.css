@@ -7,5 +7,34 @@
 
 .title {
   display: block;
+  position: relative;
+  text-align: center;
+  font-size: 24px;
   color: var(--dark-color);
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  transform: translateY(14px);
+  top: 0;
+  right: 0;
+
+  width: 30%;
+  height: 2px;
+  background-color: var(--dark-color);
+  border-radius: 1px;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  transform: translateY(14px);
+  top: 0;
+  left: 0;
+
+  width: 30%;
+  height: 2px;
+  background-color: var(--dark-color);
+  border-radius: 1px;
 }
