@@ -1,0 +1,11 @@
+.container {
+  display: block;
+  padding: 32px 16px;
+  width: 100%;
+  background-color: var(--light-color);
+}
+
+.title {
+  display: block;
+  color: var(--dark-color);
+}
