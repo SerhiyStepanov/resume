@@ -1,0 +1,39 @@
+.box {
+  margin-bottom: 48px;
+}
+
+.title {
+  display: block;
+  margin: 16px;
+  font-size: 24px;
+  color: var(--light-color);
+}
+
+.list {
+  display: block;
+  padding-left: 16px;
+}
+
+.thumb {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.listItems {
+  list-style: none;
+}
+
+.listItem {
+  color: var(--acсent-color);
+}
+
+.span {
+  color: var(--light-color);
+}
+
+.text {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--light-color);
+}
