@@ -19,7 +19,7 @@ img {
 }
 
 :root {
-  --primary-color: ;
+  --primary-color: rgb(250, 100, 55);
   --acсent-color: rgb(155, 255, 55);
   --dark-color: rgb(25, 50, 75);
   --light-color: rgb(250, 250, 220);

@@ -1,5 +1,5 @@
-import Main from "./components/main";
-import SideBar from "./components/sideBar";
+import Main from "./components/mainView";
+import SideBar from "./components/sideBarView";
 
 import s from "./app.module.css";
 
