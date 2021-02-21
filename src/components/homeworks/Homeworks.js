@@ -3,7 +3,7 @@ import s from "./homeworks.module.css";
 export default function Homeworks({ children }) {
   return (
     <div className={s.box}>
-      <h3 className={s.homeworks}>My Homeworks</h3>
+      <h3 className={s.homeworks}>My homeworks</h3>
       <ul>
         <li className={s.listItem}>
           <div className={s.thumb}>

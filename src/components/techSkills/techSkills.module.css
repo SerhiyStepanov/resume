@@ -24,8 +24,12 @@
   list-style: none;
 }
 
+.itemBox {
+  display: flex;
+}
+
 .listItem {
-  color: var(--acсent-color);
+  list-style: none;
 }
 
 .span {
@@ -35,5 +39,10 @@
 .text {
   margin-top: 0;
   margin-bottom: 10px;
+  color: var(--light-color);
+}
+
+.icon {
+  margin-right: 16px;
   color: var(--light-color);
 }
