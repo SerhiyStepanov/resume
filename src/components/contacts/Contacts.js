@@ -24,9 +24,9 @@ export default function Contacts({ children }) {
             <a
               className={s.link}
               target="blank"
-              href="mailto:tanja.anja.sergej@gmail.com"
+              href="mailto:serhiystepanov@ukr.net"
             >
-              tanja.anja.sergej@gmail.com
+              serhiystepanov@ukr.net
             </a>
           </div>
         </li>
@@ -40,7 +40,7 @@ export default function Contacts({ children }) {
               target="blank"
               href="https://github.com/SerhiyStepanov"
             >
-              https://github.com/SerhiyStepanov
+              github.com / SerhiyStepanov
             </a>
           </div>
         </li>
