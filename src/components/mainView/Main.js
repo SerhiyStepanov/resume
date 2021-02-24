@@ -29,7 +29,9 @@ export default function Main({ children }) {
         <h4>Previous work experience</h4>
         <p className={s.text}>finance management.</p>
       </div>
-      <p className={s.text}>My hobbies are photography and cooking.</p>
+      <i className={s.text}>
+        <span> * </span>My hobbies are photography and cooking.
+      </i>
     </div>
   );
 }
