@@ -16,7 +16,7 @@ export default function Main({ children }) {
       <div className={s.box}>
         <h3 className={s.education}>Education</h3>
         <p className={s.text}>
-          Vocational school № 59, September 1994 - May1995 – accountant.
+          Vocational school № 59, September 1994 - May1995 accountant.
         </p>
 
         <p className={s.text}>
@@ -25,8 +25,10 @@ export default function Main({ children }) {
         </p>
       </div>
 
-      <p className={s.text}>Previous work experience: finance management.</p>
-
+      <div className={s.box}>
+        <h4>Previous work experience</h4>
+        <p className={s.text}>finance management.</p>
+      </div>
       <p className={s.text}>My hobbies are photography and cooking.</p>
     </div>
   );

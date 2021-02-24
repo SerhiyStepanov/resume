@@ -46,7 +46,10 @@ export default function MyProjects({ children }) {
             <p>
               Technologies:
               <span className={s.span}>
-                <span class={s.tachName}> JavaScript, React, HTML, CSS.</span>
+                <span class={s.tachName}>
+                  {" "}
+                  JavaScript, React.js, HTML5, CSS3.
+                </span>
               </span>
             </p>
             <a
@@ -76,7 +79,7 @@ export default function MyProjects({ children }) {
               <span className={s.span}>
                 <span class={s.tachName}>
                   {" "}
-                  React, JavaScript, Redux, Axios, HTML, CSS.
+                  React.js, JavaScript, Redux, Axios, HTML5, CSS3.
                 </span>
               </span>
             </p>

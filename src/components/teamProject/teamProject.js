@@ -15,7 +15,7 @@ export default function Projects({ children }) {
             <p>
               Technologies:
               <span className={s.span}>
-                <span class={s.tachName}> HTML, CSS.</span>
+                <span class={s.tachName}> HTML5, CSS3.</span>
               </span>
             </p>
             <a
