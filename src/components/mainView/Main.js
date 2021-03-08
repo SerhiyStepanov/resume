@@ -20,8 +20,8 @@ export default function Main({ children }) {
         </p>
 
         <p className={s.text}>
-          IT school <span className={s.goit}>GoIT</span> from april 2020 to
-          march 2021.
+          IT school <span className={s.goit}>GoIT</span> from April 2020 to
+          March 2021.
         </p>
       </div>
 
