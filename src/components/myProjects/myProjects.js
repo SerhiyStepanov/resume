@@ -15,11 +15,11 @@ export default function MyProjects({ children }) {
             <p>
               Technologies:
               <span className={s.span}>
-                <span class={s.tachName}> HTML5, CSS3.</span>
+                <span className={s.tachName}> HTML5, CSS3.</span>
               </span>
             </p>
             <a
-              class={s.link}
+              className={s.link}
               target="blank"
               href="https://serhiystepanov.github.io/goit-markup-hw-08/"
             >
@@ -27,7 +27,7 @@ export default function MyProjects({ children }) {
             </a>
             <span> | </span>
             <a
-              class={s.link}
+              className={s.link}
               target="blank"
               href="https://github.com/SerhiyStepanov/goit-markup-hw-08"
             >
@@ -46,14 +46,14 @@ export default function MyProjects({ children }) {
             <p>
               Technologies:
               <span className={s.span}>
-                <span class={s.tachName}>
+                <span className={s.tachName}>
                   {" "}
                   JavaScript, React.js, HTML5, CSS3.
                 </span>
               </span>
             </p>
             <a
-              class={s.link}
+              className={s.link}
               target="blank"
               href="https://tas-goit-react-hw-04-movies.netlify.app/"
             >
@@ -61,7 +61,7 @@ export default function MyProjects({ children }) {
             </a>
             <span> | </span>
             <a
-              class={s.link}
+              className={s.link}
               target="blank"
               href="https://github.com/SerhiyStepanov/goit-react-hw-04-movies"
             >
@@ -77,14 +77,14 @@ export default function MyProjects({ children }) {
             <p>
               Technologies:
               <span className={s.span}>
-                <span class={s.tachName}>
+                <span className={s.tachName}>
                   {" "}
                   React.js, JavaScript, Redux, Axios, HTML5, CSS3.
                 </span>
               </span>
             </p>
             <a
-              class={s.link}
+              className={s.link}
               target="blank"
               href="https://tas-goit-react-hw-08-phonebook.netlify.app/"
             >
@@ -92,7 +92,7 @@ export default function MyProjects({ children }) {
             </a>
             <span> | </span>
             <a
-              class={s.link}
+              className={s.link}
               target="blank"
               href="https://github.com/SerhiyStepanov/goit-react-hw-08-phonebook"
             >

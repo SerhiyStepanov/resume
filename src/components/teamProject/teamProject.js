@@ -5,7 +5,7 @@ export default function Projects({ children }) {
     <div className={s.box}>
       <h3 className={s.projects}>Team projects</h3>
       <ul className={s.list}>
-        <li class={s.listItem}>
+        <li className={s.listItem}>
           <div className={s.thumb}>
             <h4>Barbershop’s website</h4>
             <p>
@@ -15,11 +15,11 @@ export default function Projects({ children }) {
             <p>
               Technologies:
               <span className={s.span}>
-                <span class={s.tachName}> HTML5, CSS3.</span>
+                <span className={s.tachName}> HTML5, CSS3.</span>
               </span>
             </p>
             <a
-              class={s.link}
+              className={s.link}
               target="blank"
               href="https://kateryna-urbanovych.github.io/BarberShop-group-5/"
             >
@@ -27,7 +27,7 @@ export default function Projects({ children }) {
             </a>
             <span> | </span>
             <a
-              class={s.link}
+              className={s.link}
               target="blank"
               href="https://github.com/Kateryna-Urbanovych/BarberShop-group-5"
             >
