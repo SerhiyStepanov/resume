@@ -26,10 +26,13 @@
 
 .itemBox {
   display: flex;
+  align-items: center;
 }
 
 .listItem {
   list-style: none;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .span {
@@ -37,12 +40,13 @@
 }
 
 .text {
-  margin-top: 0;
-  margin-bottom: 10px;
+  display: block;
+  margin: 0;
   color: var(--light-color);
 }
 
 .icon {
+  display: block;
   margin-right: 16px;
   color: var(--light-color);
 }

@@ -25,6 +25,7 @@
   display: inline-block;
   position: relative;
   text-decoration: none;
+  outline: none;
   margin-left: 8px;
   color: var(--dark-color);
 }

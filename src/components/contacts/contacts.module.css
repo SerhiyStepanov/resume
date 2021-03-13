@@ -22,14 +22,17 @@
 .thumb {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .listItems {
   list-style: none;
+  margin-bottom: 10px;
 }
 
 .span {
+  display: flex;
+  margin-right: 16px;
+  font-size: 16px;
   color: var(--light-color);
 }
 
@@ -37,7 +40,7 @@
   display: inline-block;
   position: relative;
   text-decoration: none;
-  margin-left: 8px;
+  outline: none;
   color: var(--light-color);
 }
 
