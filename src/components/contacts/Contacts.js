@@ -11,8 +11,8 @@ export default function Contacts({ children }) {
             <span className={s.span}>
               <FaPhoneAlt />
             </span>
-            <a className={s.link} target="blank" href="tel:380676731000">
-              +380676731000
+            <a className={s.link} target="_blank" href="tel:380676731000">
+              (+38) 067 673 1000
             </a>
           </div>
         </li>
@@ -23,7 +23,7 @@ export default function Contacts({ children }) {
             </span>
             <a
               className={s.link}
-              target="blank"
+              target="_blank"
               href="mailto:serhiystepanov@ukr.net"
             >
               serhiystepanov@ukr.net
@@ -37,7 +37,7 @@ export default function Contacts({ children }) {
             </span>
             <a
               className={s.link}
-              target="blank"
+              target="_blank"
               href="https://github.com/SerhiyStepanov"
             >
               github.com / SerhiyStepanov

@@ -27,7 +27,7 @@ export default function Main({ children }) {
 
       <div className={s.box}>
         <h4>Previous work experience</h4>
-        <p className={s.text}>finance management.</p>
+        <p className={s.text}>Finance management.</p>
       </div>
       <i className={s.text}>
         <span> * </span>My hobbies are photography and cooking.

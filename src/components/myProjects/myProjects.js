@@ -40,8 +40,8 @@ export default function MyProjects({ children }) {
           <div className={s.thumb}>
             <h4>Movies website</h4>
             <p>
-              The main goal of the project was to developing website with a
-              search for movies.
+              The main goal of the project was to developing fully-responsive
+              website with a search for the 20 best films to date.
             </p>
             <p>
               Technologies:
