@@ -1,6 +1,7 @@
 .container {
   background-color: var(--dark-color);
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 32px 16px;
 }
 
@@ -11,11 +12,12 @@
 }
 
 .Applogo {
-  display: block;
+  display: inline-flex;
+  align-items:flex-end;
   margin-left: auto;
   margin-right: auto;
-  height: 28px;
-  pointer-events: none;
+  height: 32px;
+  pointer-events:none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

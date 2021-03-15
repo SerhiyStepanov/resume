@@ -23,7 +23,7 @@ export default function MyProjects({ children }) {
               target="blank"
               href="https://serhiystepanov.github.io/goit-markup-hw-08/"
             >
-              Live demo
+              <i>Live demo</i>
             </a>
             <span> | </span>
             <a
@@ -31,7 +31,7 @@ export default function MyProjects({ children }) {
               target="blank"
               href="https://github.com/SerhiyStepanov/goit-markup-hw-08"
             >
-              Source code
+              <i>Source code</i>
             </a>
           </div>
         </li>
@@ -57,7 +57,7 @@ export default function MyProjects({ children }) {
               target="blank"
               href="https://tas-goit-react-hw-04-movies.netlify.app/"
             >
-              Live demo
+              <i>Live demo</i>
             </a>
             <span> | </span>
             <a
@@ -65,7 +65,7 @@ export default function MyProjects({ children }) {
               target="blank"
               href="https://github.com/SerhiyStepanov/goit-react-hw-04-movies"
             >
-              Source code
+              <i>Source code</i>
             </a>
           </div>
         </li>
@@ -88,7 +88,7 @@ export default function MyProjects({ children }) {
               target="blank"
               href="https://tas-goit-react-hw-08-phonebook.netlify.app/"
             >
-              Live demo
+              <i>Live demo</i>
             </a>
             <span> | </span>
             <a
@@ -96,7 +96,7 @@ export default function MyProjects({ children }) {
               target="blank"
               href="https://github.com/SerhiyStepanov/goit-react-hw-08-phonebook"
             >
-              Source code
+              <i>Source code</i>
             </a>
           </div>
         </li>

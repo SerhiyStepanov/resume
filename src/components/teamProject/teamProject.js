@@ -3,7 +3,7 @@ import s from "./teamProject.module.css";
 export default function Projects({ children }) {
   return (
     <div className={s.box}>
-      <h3 className={s.projects}>Team projects</h3>
+      <h3 className={s.projects}>Team project</h3>
       <ul className={s.list}>
         <li className={s.listItem}>
           <div className={s.thumb}>
@@ -23,7 +23,7 @@ export default function Projects({ children }) {
               target="blank"
               href="https://kateryna-urbanovych.github.io/BarberShop-group-5/"
             >
-              Live demo
+              <i>Live demo</i>
             </a>
             <span> | </span>
             <a
@@ -31,7 +31,7 @@ export default function Projects({ children }) {
               target="blank"
               href="https://github.com/Kateryna-Urbanovych/BarberShop-group-5"
             >
-              Source code
+              <i>Source code</i>
             </a>
           </div>
         </li>
