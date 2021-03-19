@@ -12,19 +12,26 @@
   background-color: var(--light-color);
 }
 
+.thumb {
+  display: flex;
+  justify-content: center;
+}
+
 .title {
-  display: block;
+  display: inline-block;
   position: relative;
   margin-bottom: 60px;
+  padding-bottom: 2px;
   text-align: center;
   font-size: 24px;
   color: var(--dark-color);
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .name {
   text-align: center;
   font-size: 32px;
-  line-height: 1.7;
+  margin-top: 0;
   color: var(--dark-color);
 }
 
