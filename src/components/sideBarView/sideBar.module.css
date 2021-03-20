@@ -13,11 +13,11 @@
 
 .Applogo {
   display: inline-flex;
-  align-items:flex-end;
+  align-items: flex-end;
   margin-left: auto;
   margin-right: auto;
   height: 32px;
-  pointer-events:none;
+  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
