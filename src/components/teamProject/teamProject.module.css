@@ -9,7 +9,7 @@
 .projects {
   display: block;
   font-size: 24px;
-  color: var(--dark-color);
+  color: var(--primary-color);
 }
 
 .list {
