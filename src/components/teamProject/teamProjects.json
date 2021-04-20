@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Barbershop’s website",
+    "descriptions": "In this project, I was responsible for developing front-end part of corporate website as team member in extremely short terms.",
+    "technologies": [" JavaScript", "HTML5", "CSS3"],
+    "demo": "https://kateryna-urbanovych.github.io/BarberShop-group-5/",
+    "code": "https://github.com/Kateryna-Urbanovych/BarberShop-group-5"
+  },
+  {
+    "title": "Pro test",
+    "descriptions": "Website test",
+    "technologies": [
+      " JavaScript",
+      "React.js",
+      "Redux",
+      "Axios",
+      "HTML5",
+      "CSS3"
+    ],
+    "demo": "",
+    "code": "https://github.com/DRAKOS6666/GoIt-Test-Pro-Team11/tree/dev"
+  }
+]

@@ -9,7 +9,7 @@ export default function Main({ children }) {
         <h3 className={s.title}>Front-End Developer</h3>
       </div>
 
-      <h2 className={s.name}>Serhiy Stepanov</h2>
+      <h2 className={s.name}>Stepanov Serhiy</h2>
 
       <MyProjects />
 

@@ -1,4 +1,4 @@
-.box {
+.wrapper {
   margin-bottom: 48px;
 }
 
@@ -6,7 +6,7 @@
   margin-bottom: 10px;
 }
 
-.homeworks {
+.title {
   display: block;
   font-size: 24px;
   color: var(--primary-color);
@@ -58,6 +58,6 @@
   transition: transform 300ms var(--cubic);
 }
 
-.tachName {
+.technologies {
   color: var(--dark-color);
 }
