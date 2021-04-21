@@ -1,5 +1,4 @@
 import { FaEnvelope, FaPhoneAlt, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import contacts from "./contacts.json";
 import s from "./contacts.module.css";
 
 export default function Contacts({ children }) {
@@ -7,20 +6,7 @@ export default function Contacts({ children }) {
     <div className={s.box}>
       <h4 className={s.title}>Contacts</h4>
       <ul className={s.list}>
-        {contacts.map((el, index) => (
-          <li className={s.listItems} key={index}>
-            <div className={s.thumb}>
-              <span className={s.span}>
-                {/* <FaPhoneAlt /> */}
-                {el.icon}
-              </span>
-              <a className={s.link} target="_blank" href={el.link}>
-                {el.description}
-              </a>
-            </div>
-          </li>
-        ))}
-        {/* <li className={s.listItems}>
+        <li className={s.listItems}>
           <div className={s.thumb}>
             <span className={s.span}>
               <FaPhoneAlt />
@@ -74,7 +60,7 @@ export default function Contacts({ children }) {
               Linkedin
             </a>
           </div>
-        </li> */}
+        </li>
       </ul>
     </div>
   );
