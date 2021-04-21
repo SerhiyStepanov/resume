@@ -25,9 +25,9 @@ export default function Contacts({ children }) {
             <a
               className={s.link}
               target="_blank"
-              href="mailto:serhiystepanov@ukr.net"
+              href="mailto:stepserhiy@gmail.com"
             >
-              serhiystepanov@ukr.net
+              stepserhiy@gmail.com
             </a>
           </div>
         </li>
@@ -42,7 +42,7 @@ export default function Contacts({ children }) {
               target="_blank"
               href="https://github.com/SerhiyStepanov"
             >
-              github.com/SerhiyStepanov
+              Github
             </a>
           </div>
         </li>
@@ -52,8 +52,12 @@ export default function Contacts({ children }) {
             <span className={s.span}>
               <FaLinkedinIn />
             </span>
-            <a className={s.link} target="_blank" href="">
-              undefined
+            <a
+              className={s.link}
+              target="_blank"
+              href="https://www.linkedin.com/in/serhiy-stepanov-a37490210/"
+            >
+              Linkedin
             </a>
           </div>
         </li>
