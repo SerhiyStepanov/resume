@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "",
+    "link": "tel:380676731000",
+    "description": "(+38) 067 673 1000"
+  },
+  {
+    "icon": "",
+    "link": "mailto:stepserhiy@gmail.com",
+    "description": "stepserhiy@gmail.com"
+  },
+  {
+    "icon": "public/github.svg",
+    "link": "https://github.com/SerhiyStepanov",
+    "description": "Github"
+  },
+  {
+    "icon": "",
+    "link": "https://www.linkedin.com/in/serhiy-stepanov-a37490210/",
+    "description": "Linkedin"
+  }
+]
