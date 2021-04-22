@@ -16,7 +16,7 @@ export default function Main({ children }) {
       <Projects />
 
       <div className={s.box}>
-        <h3 className={s.education}>Education</h3>
+        <h3 className={s.education}>Education:</h3>
         <p className={s.text}>
           Vocational school № 59, September 1994 - May1995 accountant.
         </p>

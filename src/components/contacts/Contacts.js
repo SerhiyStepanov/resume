@@ -4,7 +4,7 @@ import s from "./contacts.module.css";
 export default function Contacts({ children }) {
   return (
     <div className={s.box}>
-      <h4 className={s.title}>Contacts</h4>
+      <h4 className={s.title}>Contacts:</h4>
       <ul className={s.list}>
         <li className={s.listItems}>
           <div className={s.thumb}>
