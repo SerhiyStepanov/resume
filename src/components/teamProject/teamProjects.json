@@ -8,16 +8,17 @@
   },
   {
     "title": "Pro test",
-    "descriptions": "Website test",
+    "descriptions": "The main goal of the project was to developing fully-adaptive  website with two tests( QA technical training and testing theory). We get these tests from the backend. Registration is required to start the tests. My role are site navigation and a page with our team. ",
     "technologies": [
       " JavaScript",
       "React.js",
       "Redux",
       "Axios",
+      "JWT",
       "HTML5",
       "CSS3"
     ],
-    "demo": "",
+    "demo": "https://goit-test-pro-team11.netlify.app/auth",
     "code": "https://github.com/DRAKOS6666/GoIt-Test-Pro-Team11/tree/dev"
   }
 ]

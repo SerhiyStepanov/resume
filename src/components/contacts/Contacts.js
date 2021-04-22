@@ -9,17 +9,6 @@ export default function Contacts({ children }) {
         <li className={s.listItems}>
           <div className={s.thumb}>
             <span className={s.span}>
-              <FaPhoneAlt />
-            </span>
-            <a className={s.link} target="_blank" href="tel:380676731000">
-              (+38) 067 673 1000
-            </a>
-          </div>
-        </li>
-
-        <li className={s.listItems}>
-          <div className={s.thumb}>
-            <span className={s.span}>
               <FaEnvelope />
             </span>
             <a
@@ -35,14 +24,10 @@ export default function Contacts({ children }) {
         <li className={s.listItems}>
           <div className={s.thumb}>
             <span className={s.span}>
-              <FaGithub />
+              <FaPhoneAlt />
             </span>
-            <a
-              className={s.link}
-              target="_blank"
-              href="https://github.com/SerhiyStepanov"
-            >
-              Github
+            <a className={s.link} target="_blank" href="tel:380676731000">
+              (+38) 067 673 1000
             </a>
           </div>
         </li>
@@ -58,6 +43,21 @@ export default function Contacts({ children }) {
               href="https://www.linkedin.com/in/serhiy-stepanov-a37490210/"
             >
               Linkedin
+            </a>
+          </div>
+        </li>
+
+        <li className={s.listItems}>
+          <div className={s.thumb}>
+            <span className={s.span}>
+              <FaGithub />
+            </span>
+            <a
+              className={s.link}
+              target="_blank"
+              href="https://github.com/SerhiyStepanov"
+            >
+              Github
             </a>
           </div>
         </li>
