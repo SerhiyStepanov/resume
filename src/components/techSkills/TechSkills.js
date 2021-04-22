@@ -33,7 +33,7 @@ export default function TechSkills() {
         <li className={s.listItem}>
           <div className={s.itemBox}>
             <FaGithub className={s.icon} />
-            <p className={s.text}>GIT</p>
+            <p className={s.text}>Git</p>
           </div>
         </li>
 
@@ -47,14 +47,14 @@ export default function TechSkills() {
         <li className={s.listItem}>
           <div className={s.itemBox}>
             <SiWebpack className={s.icon} />
-            <p className={s.text}>WebPack</p>
+            <p className={s.text}>Webpack</p>
           </div>
         </li>
 
         <li className={s.listItem}>
           <div className={s.itemBox}>
             <DiPhotoshop className={s.icon} />
-            <p className={s.text}>Photoshop</p>
+            <p className={s.text}>Adobe Photoshop</p>
           </div>
         </li>
       </ul>
