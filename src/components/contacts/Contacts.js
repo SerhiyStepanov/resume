@@ -42,7 +42,7 @@ export default function Contacts({ children }) {
               target="_blank"
               href="https://www.linkedin.com/in/serhiy-stepanov-a37490210/"
             >
-              Linkedin
+              LinkedIn
             </a>
           </div>
         </li>
