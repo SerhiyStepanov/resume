@@ -57,7 +57,7 @@ export default function Contacts({ children }) {
               target="_blank"
               href="https://github.com/SerhiyStepanov"
             >
-              Github
+              GitHub
             </a>
           </div>
         </li>
