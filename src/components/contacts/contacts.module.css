@@ -47,9 +47,8 @@
 .link:hover,
 .link:focus {
   color: var(--acсent-color);
-  text-decoration-style: solid;
-  transform: scale(1.03);
-  transition: transform 500ms var(--cubic);
+  transform: scale(1.02);
+  transition: transform 500ms var(--cubic), color 500ms var(--cubic);
 }
 
 .link:after {

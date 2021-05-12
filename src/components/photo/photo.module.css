@@ -4,10 +4,23 @@
 }
 
 .photo {
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  outline-offset: 2px;
   outline-style: double;
-  outline-width: 2px;
+  outline-width: 4px;
+  outline-color: transparent;
+  cursor: pointer;
+
+  transition: outline 500ms linear;
+}
+
+.photo:hover,
+.photo:focus {
+  outline-offset: 2px;
+  outline-style: double;
+  outline-width: 4px;
   outline-color: var(--acсent-color);
-  outline-offset: 3px;
-  border-top-right-radius: 40px;
-  border-bottom-left-radius: 40px;
+
+  transition: outline 500ms linear;
 }

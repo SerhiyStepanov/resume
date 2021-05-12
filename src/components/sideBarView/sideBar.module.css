@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 480px) {
   .container {
-    width: calc(60%);
+    width: calc(100% - 60%);
   }
 }
 
