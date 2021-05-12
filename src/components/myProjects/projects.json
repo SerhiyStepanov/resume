@@ -1,21 +1,21 @@
 [
   {
     "title": "Web Studio website.",
-    "descriptions": "In this project, I was responsible for developing fully-responsive front-end part of corporate website.",
+    "description": "In this project, I was responsible for developing fully-responsive front-end part of corporate website.",
     "technologies": [" HTML5", "CSS3"],
     "demo": "https://serhiystepanov.github.io/goit-markup-hw-08/",
     "code": "https://github.com/SerhiyStepanov/goit-markup-hw-08"
   },
   {
     "title": "Movies website.",
-    "descriptions": "The main goal of the project was to developing fully-responsive website with a search for the 20 best films to date.",
+    "description": "The main goal of the project was to developing fully-responsive website with a search for the 20 best films to date.",
     "technologies": [" JavaScript", "React.js", "HTML5", "CSS3"],
     "demo": "https://tas-goit-react-hw-04-movies.netlify.app/",
     "code": "https://github.com/SerhiyStepanov/goit-react-hw-04-movies"
   },
   {
     "title": "Phone book.",
-    "descriptions": "Web application phone book with registration and logging in.",
+    "description": "Web application phone book with registration and logging in.",
     "technologies": [
       " JavaScript",
       "React.js",

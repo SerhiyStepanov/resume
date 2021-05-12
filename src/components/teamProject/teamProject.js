@@ -10,7 +10,7 @@ export default function Projects({ children }) {
           <li key={index} className={s.listItem}>
             <div className={s.thumb}>
               <h4>{el.title}</h4>
-              <p>{el.descriptions}</p>
+              <p>{el.description}</p>
               <p>
                 Technologies:
                 <span className={s.span}>

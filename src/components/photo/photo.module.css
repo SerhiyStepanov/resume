@@ -4,5 +4,10 @@
 }
 
 .photo {
-  border-radius: 26px;
+  outline-style: double;
+  outline-width: 2px;
+  outline-color: var(--acсent-color);
+  outline-offset: 3px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
 }

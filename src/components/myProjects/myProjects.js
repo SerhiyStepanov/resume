@@ -10,11 +10,11 @@ export default function MyProjects({ children }) {
           <li key={index} className={s.listItem}>
             <div className={s.thumb}>
               <h4>{el.title} </h4>
-              <p>{el.descriptions}</p>
+              <p>{el.description}</p>
               <p>
                 Technologies:
                 <span className={s.span}>
-                  <span className={s.technologies}>
+                  <span className={s.technologie}>
                     {el.technologies.map((el) => el).join(", ")}.
                   </span>
                 </span>
