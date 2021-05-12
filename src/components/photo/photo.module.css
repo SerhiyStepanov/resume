@@ -1,26 +1,20 @@
 .box {
-  padding: 6px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
   margin-bottom: 48px;
+  overflow: hidden;
 }
 
 .photo {
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  outline-offset: 2px;
-  outline-style: double;
-  outline-width: 4px;
-  outline-color: transparent;
+  transform: scale(1);
   cursor: pointer;
 
-  transition: outline 350ms linear;
+  transition: transform 350ms linear;
 }
 
 .photo:hover,
 .photo:focus {
-  outline-offset: 2px;
-  outline-style: double;
-  outline-width: 4px;
-  outline-color: var(--acсent-color);
+  transform: scale(1.2);
 
-  transition: outline 350ms linear;
+  transition: transform 350ms linear;
 }
