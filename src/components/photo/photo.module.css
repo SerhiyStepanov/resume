@@ -12,7 +12,7 @@
   outline-color: transparent;
   cursor: pointer;
 
-  transition: outline 500ms linear;
+  transition: outline 350ms linear;
 }
 
 .photo:hover,
@@ -22,5 +22,5 @@
   outline-width: 4px;
   outline-color: var(--acсent-color);
 
-  transition: outline 500ms linear;
+  transition: outline 350ms linear;
 }
