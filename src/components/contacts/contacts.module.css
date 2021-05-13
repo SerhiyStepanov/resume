@@ -39,15 +39,19 @@
 .link {
   display: inline-block;
   position: relative;
+  transform: translateX(0);
+  color: var(--light-color);
   text-decoration: none;
   outline: none;
-  color: var(--light-color);
+
+  transition: transform 500ms var(--cubic), color 500ms var(--cubic);
 }
 
 .link:hover,
 .link:focus {
   color: var(--acсent-color);
-  transform: scale(1.02);
+  transform: translateX(10px);
+
   transition: transform 500ms var(--cubic), color 500ms var(--cubic);
 }
 

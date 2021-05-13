@@ -24,15 +24,21 @@
 .link {
   display: inline-block;
   position: relative;
-  text-decoration: none;
+  text-decoration: underline;
   outline: none;
   color: var(--dark-color);
+  transform: translateY(0);
+
+  transition: color 300ms var(--cubic), transform 300ms var(--cubic);
 }
 
 .link:hover,
 .link:focus {
+  text-decoration: none;
   color: var(--primary-color);
-  transition: color 300ms var(--cubic);
+  transform: translateY(-4px);
+
+  transition: color 300ms var(--cubic), transform 300ms var(--cubic);
 }
 
 .link:after {
