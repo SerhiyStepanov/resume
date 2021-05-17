@@ -4,12 +4,12 @@ import s from "./contacts.module.css";
 export default function Contacts({ children }) {
   return (
     <div className={s.box}>
-      <h4 className={s.title}>Contacts:</h4>
+      <h3 className={s.title}>Contacts</h3>
       <ul className={s.list}>
         <li className={s.listItems}>
           <div className={s.thumb}>
             <span className={s.span}>
-              <FaEnvelope />
+              <FaEnvelope className={s.icon} />
             </span>
             <a
               className={s.link}
@@ -24,7 +24,7 @@ export default function Contacts({ children }) {
         <li className={s.listItems}>
           <div className={s.thumb}>
             <span className={s.span}>
-              <FaPhoneAlt />
+              <FaPhoneAlt className={s.icon} />
             </span>
             <a className={s.link} target="_blank" href="tel:380676731000">
               (+38) 067 673 1000
@@ -35,7 +35,7 @@ export default function Contacts({ children }) {
         <li className={s.listItems}>
           <div className={s.thumb}>
             <span className={s.span}>
-              <FaLinkedinIn />
+              <FaLinkedinIn className={s.icon} />
             </span>
             <a
               className={s.link}
@@ -50,7 +50,7 @@ export default function Contacts({ children }) {
         <li className={s.listItems}>
           <div className={s.thumb}>
             <span className={s.span}>
-              <FaGithub />
+              <FaGithub className={s.icon} />
             </span>
             <a
               className={s.link}

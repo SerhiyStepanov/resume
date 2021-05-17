@@ -4,7 +4,7 @@ import s from "./teamProject.module.css";
 export default function Projects({ children }) {
   return (
     <div className={s.box}>
-      <h3 className={s.projects}>Team projects:</h3>
+      <h3 className={s.title}>Team projects</h3>
       <ul className={s.list}>
         {teamProjects.map((el, index) => (
           <li key={index} className={s.listItem}>

@@ -6,7 +6,7 @@
   margin-bottom: 10px;
 }
 
-.projects {
+.title {
   display: block;
   font-size: 24px;
   color: var(--primary-color);
@@ -69,4 +69,8 @@
 
 .tachName {
   color: var(--dark-color);
+}
+
+i {
+  font-weight: 600;
 }

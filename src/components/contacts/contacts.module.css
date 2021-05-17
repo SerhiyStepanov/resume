@@ -39,6 +39,8 @@
 .link {
   display: inline-block;
   position: relative;
+  font-style: italic;
+  font-weight: 600;
   transform: translateX(0);
   color: var(--light-color);
   text-decoration: none;
@@ -74,4 +76,13 @@
 .link:focus:after {
   transform: scaleX(1);
   transition: transform 500ms var(--cubic);
+}
+
+.icon {
+  fill: var(--acсent-color);
+}
+
+.link:hover .icon,
+.link:focus .icon {
+  fill: coral;
 }

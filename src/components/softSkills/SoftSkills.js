@@ -6,7 +6,7 @@ const sortSkills = skills.sort();
 export default function SoftSkills({ children }) {
   return (
     <div className={s.box}>
-      <h4 className={s.title}>Soft skills:</h4>
+      <h3 className={s.title}>Soft skills</h3>
       <ul className={s.list}>
         {sortSkills.map((el) => (
           <li key={el} className={s.listItem}>

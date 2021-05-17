@@ -12,8 +12,7 @@
 }
 
 .Applogo {
-  display: inline-flex;
-  align-items: flex-end;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   height: 32px;

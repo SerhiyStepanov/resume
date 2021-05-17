@@ -65,3 +65,7 @@
 .technologies {
   color: var(--dark-color);
 }
+
+i {
+  font-weight: 600;
+}

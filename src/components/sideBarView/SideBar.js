@@ -17,7 +17,9 @@ export default function SideBar({ children }) {
 
       <SoftSkills />
 
-      <img src={logo} className={s.Applogo} alt="logo React" />
+      <div style={{ marginTop: "auto" }}>
+        <img src={logo} className={s.Applogo} alt="logo React" />
+      </div>
     </div>
   );
 }

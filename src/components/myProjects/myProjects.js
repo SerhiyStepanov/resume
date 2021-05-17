@@ -4,7 +4,7 @@ import s from "./myProjects.module.css";
 export default function MyProjects({ children }) {
   return (
     <div className={s.wrapper}>
-      <h3 className={s.title}>Projects:</h3>
+      <h3 className={s.title}>Projects</h3>
       <ul className={s.list}>
         {projects.map((el, index) => (
           <li key={index} className={s.listItem}>
