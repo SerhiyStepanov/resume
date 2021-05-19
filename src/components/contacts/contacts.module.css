@@ -79,10 +79,16 @@
 }
 
 .icon {
-  fill: var(--acсent-color);
+  fill: var(--light-color);
+  transform: translateX(0);
+
+  transition: transform 500ms var(--cubic), fill 500ms var(--cubic);
 }
 
-.link:hover .icon,
-.link:focus .icon {
-  fill: coral;
+.thumb:hover .icon,
+.thumb:focus .icon {
+  transform: translateX(-10px);
+  fill: var(--acсent-color);
+
+  transition: transform 500ms var(--cubic), fill 500ms var(--cubic);
 }
