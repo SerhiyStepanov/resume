@@ -14,6 +14,7 @@ export default function TechSkills() {
             <a
               href="https://uk.wikipedia.org/wiki/JavaScript"
               target="_blank"
+              rel="nofollow"
               title="uk.wikipedia.org"
               className={s.link}
             >
@@ -28,6 +29,7 @@ export default function TechSkills() {
             <a
               href="https://uk.wikipedia.org/wiki/HTML5"
               target="_blank"
+              rel="nofollow"
               title="uk.wikipedia.org"
               className={s.link}
             >
@@ -42,6 +44,7 @@ export default function TechSkills() {
             <a
               href="https://uk.wikipedia.org/wiki/CSS"
               target="_blank"
+              rel="nofollow"
               title="uk.wikipedia.org"
               className={s.link}
             >
@@ -56,6 +59,7 @@ export default function TechSkills() {
             <a
               href="https://uk.wikipedia.org/wiki/Git"
               target="_blank"
+              rel="nofollow"
               title="uk.wikipedia.org"
               className={s.link}
             >
@@ -70,6 +74,7 @@ export default function TechSkills() {
             <a
               href="https://uk.wikipedia.org/wiki/React"
               target="_blank"
+              rel="nofollow"
               title="uk.wikipedia.org"
               className={s.link}
             >
@@ -84,6 +89,7 @@ export default function TechSkills() {
             <a
               href="https://uk.wikipedia.org/wiki/Webpack"
               target="_blank"
+              rel="nofollow"
               title="uk.wikipedia.org"
               className={s.link}
             >
@@ -98,6 +104,7 @@ export default function TechSkills() {
             <a
               href="https://uk.wikipedia.org/wiki/Adobe_Photoshop"
               target="_blank"
+              rel="nofollow"
               title="uk.wikipedia.org"
               className={s.link}
             >

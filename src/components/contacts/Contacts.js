@@ -12,9 +12,9 @@ export default function Contacts({ children }) {
               <FaEnvelope className={s.icon} />
             </span>
             <a
-              className={s.link}
-              target="_blank"
               href="mailto:stepserhiy@gmail.com"
+              target="_blank"
+              className={s.link}
             >
               stepserhiy@gmail.com
             </a>
@@ -26,7 +26,7 @@ export default function Contacts({ children }) {
             <span className={s.span}>
               <FaPhoneAlt className={s.icon} />
             </span>
-            <a className={s.link} target="_blank" href="tel:380676731000">
+            <a href="tel:380676731000" target="_blank" className={s.link}>
               (+38) 067 673 1000
             </a>
           </div>
@@ -38,10 +38,10 @@ export default function Contacts({ children }) {
               <FaLinkedinIn className={s.icon} />
             </span>
             <a
-              className={s.link}
+              href="https://www.linkedin.com/in/serhiy-stepanov-a37490210/"
               target="_blank"
               rel="nofollow"
-              href="https://www.linkedin.com/in/serhiy-stepanov-a37490210/"
+              className={s.link}
             >
               LinkedIn
             </a>
@@ -54,10 +54,10 @@ export default function Contacts({ children }) {
               <FaGithub className={s.icon} />
             </span>
             <a
-              className={s.link}
+              href="https://github.com/SerhiyStepanov"
               target="_blank"
               rel="nofollow"
-              href="https://github.com/SerhiyStepanov"
+              className={s.link}
             >
               GitHub
             </a>

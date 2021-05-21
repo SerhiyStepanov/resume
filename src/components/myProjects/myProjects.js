@@ -19,11 +19,21 @@ export default function MyProjects({ children }) {
                   </span>
                 </span>
               </p>
-              <a className={s.link} target="_blank" href={el.demo}>
+              <a
+                href={el.demo}
+                className={s.link}
+                target="_blank"
+                rel="nofollow"
+              >
                 <i>Live demo</i>
               </a>
               <span> | </span>
-              <a className={s.link} target="_blank" href={el.code}>
+              <a
+                href={el.code}
+                className={s.link}
+                target="_blank"
+                rel="nofollow"
+              >
                 <i>Source code</i>
               </a>
             </div>
