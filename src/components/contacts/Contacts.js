@@ -40,6 +40,7 @@ export default function Contacts({ children }) {
             <a
               className={s.link}
               target="_blank"
+              rel="nofollow"
               href="https://www.linkedin.com/in/serhiy-stepanov-a37490210/"
             >
               LinkedIn
@@ -55,6 +56,7 @@ export default function Contacts({ children }) {
             <a
               className={s.link}
               target="_blank"
+              rel="nofollow"
               href="https://github.com/SerhiyStepanov"
             >
               GitHub
