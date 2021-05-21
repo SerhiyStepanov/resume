@@ -20,9 +20,6 @@ export default function Main({ children }) {
 
       <div className={s.box}>
         <h3 className={s.education}>Education</h3>
-        <p className={s.text}>
-          Vocational school № 59, September 1994 - May1995 accountant.
-        </p>
 
         <p className={s.text}>
           IT school <span className={s.goit}>"GoIT"</span> from April 2020 to
@@ -35,7 +32,8 @@ export default function Main({ children }) {
         <p className={s.text}>Finance management.</p>
       </div>
       <i className={s.text}>
-        <span> * </span>My hobbies are photography and cooking.
+        <span className={s.star}> * </span>My hobbies are photography and
+        cooking.
       </i>
     </div>
   );

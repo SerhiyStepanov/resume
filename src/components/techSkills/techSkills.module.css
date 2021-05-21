@@ -35,8 +35,14 @@
   margin-bottom: 10px;
 }
 
-.span {
+.link {
+  display: inline-flex;
+  align-items: center;
   color: var(--light-color);
+  text-decoration: none;
+  outline: none;
+
+  transition: color 500ms var(--cubic);
 }
 
 .text {
@@ -45,8 +51,22 @@
   color: var(--light-color);
 }
 
+.link:hover .text,
+.link:focus .text {
+  color: var(--acсent-color);
+
+  transition: color 500ms var(--cubic);
+}
+
 .icon {
   display: block;
   margin-right: 8px;
   color: var(--light-color);
+}
+
+.link:hover .icon,
+.link:focus .icon {
+  color: var(--acсent-color);
+
+  transition: color 500ms var(--cubic);
 }

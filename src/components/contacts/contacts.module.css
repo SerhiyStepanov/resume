@@ -29,13 +29,6 @@
   margin-bottom: 10px;
 }
 
-.span {
-  display: flex;
-  margin-right: 8px;
-  font-size: 16px;
-  color: var(--light-color);
-}
-
 .link {
   display: inline-block;
   position: relative;
@@ -91,4 +84,11 @@
   fill: var(--acсent-color);
 
   transition: transform 500ms var(--cubic), fill 500ms var(--cubic);
+}
+
+.span {
+  display: flex;
+  margin-right: 8px;
+  font-size: 16px;
+  color: var(--light-color);
 }

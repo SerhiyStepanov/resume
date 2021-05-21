@@ -6,15 +6,24 @@
 }
 
 .photo {
-  transform: scale(1);
+  transform: scale(1) translateY(0) translateX(0);
   cursor: pointer;
 
-  transition: transform 350ms linear;
+  transition: transform 500ms linear;
 }
 
 .photo:hover,
 .photo:focus {
-  transform: scale(1.2);
+  transform: scale(1.4) translateY(50px) translateX(20px);
 
-  transition: transform 350ms linear;
+  transition: transform 500ms linear;
+}
+
+@media screen and (min-width: 768px) {
+  .photo:hover,
+  .photo:focus {
+    transform: scale(1.5) translateY(40px) translateX(20px);
+
+    transition: transform 500ms linear;
+  }
 }

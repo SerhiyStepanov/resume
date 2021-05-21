@@ -3,3 +3,8 @@
   font-size: 24px;
   color: var(--primary-color);
 }
+
+.goit {
+  font-weight: 600;
+  color: var(--primary-color);
+}

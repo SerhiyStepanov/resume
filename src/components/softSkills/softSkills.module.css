@@ -9,26 +9,16 @@
   color: var(--light-color);
 }
 
-.list {
-  display: block;
-  padding-left: 32px;
-}
-
 .thumb {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  padding-left: 16px;
 }
 
-.listItems {
-  list-style: none;
-}
-
-.listItem {
-  color: var(--acсent-color);
-}
-
-.span {
+.icon {
+  display: block;
+  margin-right: 8px;
   color: var(--light-color);
 }
 
