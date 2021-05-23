@@ -32,8 +32,8 @@ export default function Main({ children }) {
         <p className={s.text}>Finance management.</p>
       </div>
       <i className={s.text}>
-        <span className={s.star}> * </span>My hobbies are photography and
-        cooking.
+        <span className={s.star}> * </span>
+        My hobbies are photography and cooking.
       </i>
     </div>
   );

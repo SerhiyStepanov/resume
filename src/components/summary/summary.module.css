@@ -4,6 +4,10 @@
   color: var(--primary-color);
 }
 
+.text {
+  text-indent: 20px;
+}
+
 .goit {
   font-weight: 600;
   color: var(--primary-color);

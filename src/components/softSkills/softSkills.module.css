@@ -16,10 +16,19 @@
   padding-left: 16px;
 }
 
+.thumb:hover .icon,
+.thumb:focus .icon {
+  color: var(--acсent-color);
+
+  transition: color 300ms var(--cubic);
+}
+
 .icon {
   display: block;
   margin-right: 8px;
   color: var(--light-color);
+
+  transition: color 300ms var(--cubic);
 }
 
 .text {
